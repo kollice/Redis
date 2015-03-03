@@ -14,7 +14,8 @@ import com.kollice.redis.dao.IUserDao;
 import com.kollice.redis.entity.User;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"../../../../applicationContext.xml"})  
+//@ContextConfiguration(locations = {"../../../../applicationContext.xml"})  
+@ContextConfiguration(locations = {"classpath:applicationContext.xml"})  
 public class Stubs {  
 
 	@Autowired  
